@@ -1,5 +1,5 @@
 #include "robot_rescue_pal.h"
-
+#include "stdbool.h"
 // IMPLEMET THIS FUNCTION
 // ALLOWED RETURN VALUES:
 // 1: North, 2: East, 3: South, 4: West, 5: Toggle watern/land mode
@@ -60,7 +60,7 @@ int move(char *world) {
   } 
 for (int d=0; d<4;d++) 
    { 
-       if (< 0 ||queue[current_position] + direction[d] Y > 200)
+       if (p < 0 ||queue[current_position] + direction[d] Y > 200)
    {
        
    }
